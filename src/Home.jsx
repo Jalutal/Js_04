@@ -80,12 +80,10 @@ function Home() {
                 )}                                
                 </>
             )
-        }
-        )}
+        })}
         <img src="01.png" alt="" />
         <Footer />
         </main>
       )
-
 }
 export default Home;
