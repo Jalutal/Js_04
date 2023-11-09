@@ -1,4 +1,5 @@
 import ProfilMenu from './ProfilMenu';
+import { Link } from "react-router-dom";
 
 
 function Header() {
@@ -14,9 +15,10 @@ function Header() {
         <nav className='navHeader01'>
             <ul className='ulHeader01'>
             <ProfilMenu />
-                <li className='liHeader01'>Accueil</li>
-                <li className='liHeader01'>Home</li>                
-                <li className='liHeader01'>Contact</li> 
+                <li>Accueil</li>
+                <li><Link to="/">Home</Link></li>                
+                <li><Link to="/contact">Contact</Link></li> 
+                <li><Link to="/story">Story</Link></li>
             </ul>
         </nav>
         </header>
