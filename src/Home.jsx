@@ -1,3 +1,6 @@
+import Header from './Header';
+import Footer from './Footer';
+
 function Home() {       
     const articles = [
         {
@@ -64,6 +67,7 @@ function Home() {
       const lastArticles = articlesPublished.slice(-3)
       return (
         <main className="mainOrigin">
+          <Header />
         {lastArticles.map((article) => {
             return (
                 <>
@@ -79,6 +83,7 @@ function Home() {
         }
         )}
         <img src="01.png" alt="" />
+        <Footer />
         </main>
       )
 
