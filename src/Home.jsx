@@ -63,7 +63,7 @@ function Home() {
       const articlesPublished = articles.filter((articles) => articles.isPublished)
       const lastArticles = articlesPublished.slice(-3)
       return (
-        <main>
+        <main className="mainOrigin">
         {lastArticles.map((article) => {
             return (
                 <>

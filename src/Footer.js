@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <footer>
+        <footer className="footerOrigin">
         <p>"Juste une phrase de copyright". C'est la consigne après tout.</p>
         </footer>
     )

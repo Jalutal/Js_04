@@ -37,33 +37,33 @@
   }
 }
 
-header {
+.header01 {
   text-align: center;
 }
 
-ul {
+.ulHeader01 {
   display: flex; 
   justify-content: center;
   list-style-type: none;
   gap: 15px 
 }
 
-li {
+.liHeader01 {
   background-color: antiquewhite;
   
 }
 
-main {
+.mainOrigin {
   height: 80vh;
   background: linear-gradient(90deg, rgba(166,218,39,1) 0%, rgba(118,121,9,0.35057773109243695) 35%, rgba(124,27,214,1) 100%);
 }
 
-main article {
+.mainOrigin article {
   text-align: center;
   padding-top: 50px;
 }
 
-footer p {
+.footerOrigin p {
   text-align: center;
   background-color: antiquewhite;
 }
