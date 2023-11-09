@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.scss';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from './Home';
-import Contact from './Contact';
-import Story from './Story';
+import Home from './page/Home';
+import Contact from './page/Contact';
+import Story from './page/Story';
 
 function App() {
   return (
