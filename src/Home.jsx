@@ -71,12 +71,14 @@ function Home() {
                     <article>
                         <h2>{article.title}</h2>
                         <p>{article.price} €</p>
+                        
                     </article>
-                )}                
+                )}                                
                 </>
             )
         }
         )}
+        <img src="01.png" alt="" />
         </main>
       )
 
