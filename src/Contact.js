@@ -6,7 +6,7 @@ function Contact() {
     return (
         <main className="contactOrigin">
         <Header />
-        <p>Jesse Granier.</p>
+        <p className='contactName'>Jesse Granier.</p>
         <Footer />
         </main>
     )
